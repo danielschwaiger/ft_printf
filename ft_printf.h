@@ -6,7 +6,7 @@
 /*   By: dapanciu <dapanciu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/19 11:41:28 by dapanciu          #+#    #+#             */
-/*   Updated: 2022/05/26 16:54:01 by dapanciu         ###   ########.fr       */
+/*   Updated: 2022/05/31 11:20:03 by dapanciu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,10 +17,10 @@
 # include <stdarg.h>
 # include <unistd.h>
 
-/*--------------Specifier---------------*/
+/*--------------Primary functions---------------*/
 int	ft_printf(char const *frmt, ...);
 int	ft_read_types(va_list ap, char c);
-/*--------------Other functions---------------*/
+/*--------------Other functions-----------------*/
 int	ft_print_hexa(unsigned long int nb, char c);
 int	ft_putstr(char *s);
 int	ft_putchar(char c);

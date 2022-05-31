@@ -6,7 +6,7 @@
 /*   By: dapanciu <dapanciu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/19 16:59:32 by dapanciu          #+#    #+#             */
-/*   Updated: 2022/05/26 16:54:20 by dapanciu         ###   ########.fr       */
+/*   Updated: 2022/05/31 11:19:08 by dapanciu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,7 @@ int	ft_printf(char const *frmt, ...)
 	{
 		if (*frmt == '%')
 			i += ft_read_types(pd, *++frmt);
-		else
+ 		else
 			i += ft_putchar(*frmt);
 		frmt++;
 	}
